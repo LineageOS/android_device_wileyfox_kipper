@@ -16,6 +16,24 @@
       "revId": "77b1564117950bd5c6d215a68929c31520d9ee0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf8cb3f7_00cb3b53",
+        "filename": "rootdir/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13409
+      },
+      "writtenOn": "2015-12-04T06:00:20Z",
+      "side": 1,
+      "message": "ahh, I had just been following the same procedure I had done on the other devices.  New version coming.",
+      "parentUuid": "bf8cb3f7_a0bccfbb",
+      "revId": "77b1564117950bd5c6d215a68929c31520d9ee0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
