@@ -782,8 +782,6 @@ int NativeSensorManager::getSensorListInner()
 #if defined(SENSORS_DEVICE_API_VERSION_1_3)
 		if (list->sensor->maxDelay == 0)
 			list->sensor->maxDelay = 10000000;
-		else
-			list->sensor->maxDelay = list->sensor->maxDelay * 1000; /* milliseconds to microseconds */
 #endif
 		list->sensor->handle = SENSORS_HANDLE(number);
 		list->data_path = NULL;
