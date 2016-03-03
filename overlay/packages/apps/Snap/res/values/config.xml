@@ -20,4 +20,8 @@
     <!-- Force use a specific preview-size
          Example: 1920x1080 -->
     <string name="preview_size_for_photo">1920x1080</string>
+
+    <!-- Enable NV12 for both video and photo preview if preview size doesn't
+         change while switching from one to the other -->
+    <bool name="cpp_duplication">false</bool>
 </resources>
