@@ -28,6 +28,9 @@ TARGET_KERNEL_CONFIG := cyanogenmod_kipper-64_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := KIPPER
+
 # Camera
 BOARD_CAMERA_SENSORS := imx220 imx230 ov8858_q8v19w_spirit
 TARGET_USE_VENDOR_CAMERA_EXT := true
