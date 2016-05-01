@@ -24,6 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := kipper,tod
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_kipper-64_defconfig
+TARGET_USES_UNCOMPRESSED_KERNEL := true
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
