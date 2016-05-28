@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_523c53c7",
+        "filename": "board/bluetooth.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-05-28T13:02:19Z",
+      "side": 1,
+      "message": "Oh err, I guess not.",
+      "parentUuid": "5faad753_9222cba3",
+      "revId": "e9efe2559c2377735ab10e307b7775079f0b8f28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_d2284387",
         "filename": "board/sepolicy.mk",
         "patchSetId": 1
