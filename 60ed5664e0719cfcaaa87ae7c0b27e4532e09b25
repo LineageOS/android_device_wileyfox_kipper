@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_a827a112",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-08-31T09:43:32Z",
+      "side": 1,
+      "message": "Isn\u0027t https://github.com/CyanogenMod/android_device_wileyfox_kipper/commit/4a77eea9e9d1b009ab1b7878fd66f8a255309c07 a necessity anymore?",
+      "revId": "60ed5664e0719cfcaaa87ae7c0b27e4532e09b25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
