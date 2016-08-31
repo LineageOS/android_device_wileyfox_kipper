@@ -16,6 +16,24 @@
       "revId": "60ed5664e0719cfcaaa87ae7c0b27e4532e09b25",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_287971fb",
+        "filename": "proprietary-files-qc.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-08-31T10:03:11Z",
+      "side": 1,
+      "message": "Ah, seems it isn\u0027t needed anymore: https://github.com/CyanogenMod/android_external_wpa_supplicant_8/commit/a08fd9e9b66b23ceb7f14aaba3150e2146393b37",
+      "parentUuid": "1fa4df85_a827a112",
+      "revId": "60ed5664e0719cfcaaa87ae7c0b27e4532e09b25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
