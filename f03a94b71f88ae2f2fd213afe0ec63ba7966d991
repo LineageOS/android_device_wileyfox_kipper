@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_252566ab",
+        "filename": "lineage.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:16:52Z",
+      "side": 1,
+      "message": "The LineageOS Project",
+      "revId": "f03a94b71f88ae2f2fd213afe0ec63ba7966d991",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_053a62cd",
+        "filename": "lineage.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-01-13T22:16:52Z",
+      "side": 1,
+      "message": "Lineage",
+      "revId": "f03a94b71f88ae2f2fd213afe0ec63ba7966d991",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
