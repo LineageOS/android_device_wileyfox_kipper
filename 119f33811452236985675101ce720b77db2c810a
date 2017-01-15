@@ -16,6 +16,24 @@
       "revId": "119f33811452236985675101ce720b77db2c810a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_93f8de4a",
+        "filename": "lineage.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 10988
+      },
+      "writtenOn": "2017-01-15T15:07:06Z",
+      "side": 1,
+      "message": "I didn\u0027t do it, since this is a cherry-pick from the patch from 14.1 (already merged), that also doesn\u0027t touch it.\n\nSince the original patch was submitted via our gerrit, the contributor grant allows us to add a LineageOS (C) line, but even if we opt to do it, I\u0027d rather have that on a different commit, so we\u0027d push it to both 13.0 and 14.1 branches.",
+      "parentUuid": "ba3e81b7_d392e69e",
+      "revId": "119f33811452236985675101ce720b77db2c810a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
