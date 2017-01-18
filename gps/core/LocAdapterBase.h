@@ -80,10 +80,16 @@ public:
 
     // This will be overridden by the individual adapters
     // if necessary.
-    inline virtual void setUlpProxy(UlpProxyBase* ulp) {}
+    inline virtual void setUlpProxy(UlpProxyBase* ulp) {
+
+        (void)ulp;
+    }
     virtual void handleEngineUpEvent();
     virtual void handleEngineDownEvent();
-    inline virtual void setPositionModeInt(LocPosMode& posMode) {}
+    inline virtual void setPositionModeInt(LocPosMode& posMode) {
+
+        (void)posMode;
+    }
     virtual void startFixInt() {}
     virtual void stopFixInt() {}
     virtual void getZppInt() {}
@@ -92,7 +98,7 @@ public:
                                 void* locationExt,
                                 enum loc_sess_status status,
                                 LocPosTechMask loc_technology_mask);
-    virtual void reportSv(GnssSvStatus &svStatus,
+    virtual void reportSv(QcomSvStatus &svStatus,
                           GpsLocationExtended &locationExtended,
                           void* svExt);
     virtual void reportStatus(GpsStatusValue status);

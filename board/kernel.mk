@@ -1,2 +1,2 @@
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_kipper-64_defconfig
+TARGET_KERNEL_CONFIG := lineageos_kipper_defconfig
