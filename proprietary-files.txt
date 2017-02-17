@@ -262,6 +262,7 @@ etc/permissions/qcrilhook.xml
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
 lib64/librilqmiservices.so
+lib64/libprotobuf-cpp-preo.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libconfigdb.so
@@ -269,6 +270,7 @@ vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libperipheral_client.so
+vendor/lib64/libprotobuf-cpp-lpro.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-qmi-1.so
 vendor/lib64/libril-qc-radioconfig.so
