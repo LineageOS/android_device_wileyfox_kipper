@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_8c168bf0",
+        "filename": "overlay/frameworks/base/packages/SettingsProvider/res/values/defaults.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2017-04-24T22:12:00Z",
+      "side": 1,
+      "message": "Probably shouldn\u0027t override the screen timeout.",
+      "revId": "136f1c96769d67a33429b34ff1c8f83ec0a814d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
