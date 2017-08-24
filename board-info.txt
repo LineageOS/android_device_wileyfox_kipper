@@ -1,1 +1,2 @@
 require board=KIPPER
+require version-bootloader=kipper-N-g2253387
