@@ -1,0 +1,36 @@
+[1mdiff --cc product/usb.mk[m
+[1mindex d506ff9,5ce9186..0000000[m
+[1m--- a/product/usb.mk[m
+[1m+++ b/product/usb.mk[m
+[36m@@@ -1,16 -1,15 +1,21 @@@[m
+[32m +# Permissions[m
+[32m +PRODUCT_COPY_FILES += \[m
+[32m +    frameworks/native/data/etc/android.hardware.ethernet.xml:system/etc/permissions/android.hardware.ethernet.xml \[m
+[32m +    frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml[m
+[32m +[m
+  # USB ID[m
+[32m++<<<<<<< HEAD[m
+[32m +ADDITIONAL_DEFAULT_PROPERTIES += \[m
+[32m++=======[m
+[32m+ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \[m
+[32m+     ro.usb.vid=2717 \[m
+[32m++>>>>>>> 46a69a1... Replace ADDITIONAL_DEFAULT_PROPERTIES[m
+      ro.usb.id.midi=90BA \[m
+      ro.usb.id.midi_adb=90BB \[m
+[31m -    ro.usb.id.mtp=ff60 \[m
+[31m -    ro.usb.id.mtp_adb=ff68 \[m
+[31m -    ro.usb.id.ptp=ff10 \[m
+[31m -    ro.usb.id.ptp_adb=ff18 \[m
+[31m -    ro.usb.id.ums=ff20 \[m
+[31m -    ro.usb.id.ums_adb=ff28[m
+[31m -[m
+[31m -# Permissions[m
+[31m -PRODUCT_COPY_FILES += \[m
+[31m -    frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml[m
+[32m +    ro.usb.id.mtp=2281 \[m
+[32m +    ro.usb.id.mtp_adb=2282 \[m
+[32m +    ro.usb.id.ptp=2284 \[m
+[32m +    ro.usb.id.ptp_adb=2283 \[m
+[32m +    ro.usb.id.ums=2286 \[m
+[32m +    ro.usb.id.ums_adb=2285 \[m
+[32m +    ro.usb.vid=2970[m
