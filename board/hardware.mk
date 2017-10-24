@@ -1,2 +1,2 @@
 # CMHW
-BOARD_HARDWARE_CLASS += device/wileyfox/kipper/cmhw
+#BOARD_HARDWARE_CLASS += device/wileyfox/kipper/cmhw
