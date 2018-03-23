@@ -1,6 +1,9 @@
 # CKTNV
 /(vendor|system/vendor)/bin/cktnvtool                                                           u:object_r:cktnv_exec:s0
 
+# Lights
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.kipper                    u:object_r:hal_light_default_exec:s0
+
 # Sensors
 /sys/devices/soc.0/78b6000.i2c/i2c-0/0-006b/sensors(/.*)?                                       u:object_r:sensors_sysfs:s0
 
