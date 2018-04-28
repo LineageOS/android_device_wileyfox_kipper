@@ -194,9 +194,9 @@ vendor/lib/libOmxQcelp13Dec.so
 
 # Perf
 bin/msm_irqbalance:vendor/bin/msm_irqbalance
-vendor/bin/perfd
-vendor/lib64/libqti-perfd-client.so
-vendor/lib/libqti-perfd-client.so
+vendor/bin/perfd|ce25f4e18962cc6de85c2ed7da8fe688c46a397e
+vendor/lib64/libqti-perfd-client.so|fdd692760698f5fcb7799e81d493a146f92246a8
+vendor/lib/libqti-perfd-client.so|90b2007264bcda7fc706fd55becdea4c6b999233
 
 # Postprocessing
 bin/mm-pp-daemon:vendor/bin/mm-pp-daemon
