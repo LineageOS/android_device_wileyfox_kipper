@@ -36,5 +36,6 @@ TARGET_VENDOR_PRODUCT_NAME := Storm
 TARGET_VENDOR_DEVICE_NAME := kipper
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Wileyfox/Storm/kipper:7.1.1/N6F27C/83dbe1d738:user/release-keys \
     PRIVATE_BUILD_DESC="kipper-user 7.1.1 N6F27C 83dbe1d738 release-keys"
+
+BUILD_FINGERPRINT := Wileyfox/Storm/kipper:7.1.1/N6F27C/83dbe1d738:user/release-keys
