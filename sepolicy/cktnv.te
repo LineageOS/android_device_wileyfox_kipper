@@ -1,5 +1,6 @@
 type cktnv, domain;
 type cktnv_exec, exec_type, file_type;
+diag_use(cktnv)
 init_daemon_domain(cktnv)
 
 unix_socket_connect(cktnv, qmuxd, qmuxd)
