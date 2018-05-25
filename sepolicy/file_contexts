@@ -1,10 +1,6 @@
 # CKTNV
 /(vendor|system/vendor)/bin/cktnvtool                                                           u:object_r:cktnv_exec:s0
 
-# Lights
-/sys/devices/soc.0/gpio-leds.71/leds(/.*)?                                                      u:object_r:sysfs_leds:s0
-/sys/devices/soc.0/78b6000.i2c/i2c-0/0-0045/leds(/.*)?                                          u:object_r:sysfs_leds:s0
-
 # Sensors
 /sys/devices/soc.0/78b6000.i2c/i2c-0/0-006b/sensors(/.*)?                                       u:object_r:sensors_sysfs:s0
 
