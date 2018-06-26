@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30de34eb_30d322cc",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-26T20:45:31Z",
+      "side": 0,
+      "message": "You need to keep these no?",
+      "range": {
+        "startLine": 257,
+        "startChar": 0,
+        "endLine": 259,
+        "endChar": 72
+      },
+      "revId": "5bc9548d40f3ad4e16c373cb6244bebd8a353227",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
