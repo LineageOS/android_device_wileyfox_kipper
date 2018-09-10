@@ -55,7 +55,7 @@ BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := lineageos_kipper_defconfig
 
 # LineageHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/lineagehw
+JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
