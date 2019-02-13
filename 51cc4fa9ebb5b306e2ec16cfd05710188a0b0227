@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "63beff21_0e00a8eb",
+        "filename": "init/init_kipper.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2019-02-13T20:22:20Z",
+      "side": 1,
+      "message": "Maybe android::base::Trim() this?",
+      "range": {
+        "startLine": 56,
+        "startChar": 32,
+        "endLine": 56,
+        "endChar": 71
+      },
+      "revId": "51cc4fa9ebb5b306e2ec16cfd05710188a0b0227",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d1a1a27c_754f455c",
+        "filename": "init/init_kipper.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2019-02-13T20:22:20Z",
+      "side": 1,
+      "message": "!serial_number.isEmpty() should work",
+      "range": {
+        "startLine": 58,
+        "startChar": 8,
+        "endLine": 58,
+        "endChar": 27
+      },
+      "revId": "51cc4fa9ebb5b306e2ec16cfd05710188a0b0227",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
