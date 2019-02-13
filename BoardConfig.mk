@@ -48,14 +48,14 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 29018209280 # 29018225664 - 16384
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 BOARD_DTBTOOL_ARGS := -2
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := lineageos_kipper_defconfig
-
-# LineageHW
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
