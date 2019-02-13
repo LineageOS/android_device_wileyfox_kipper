@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b066e074_6a43227b",
+        "filename": "touch/vendor.lineage.touch@1.0-service.kipper.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2019-02-13T20:28:24Z",
+      "side": 1,
+      "message": "I\u0027ve found that on init works better as far as timing goes.",
+      "revId": "25f15867bda7a59ffcbc0ab53b149f5973feb6dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
