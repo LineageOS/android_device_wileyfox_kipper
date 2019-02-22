@@ -56,7 +56,6 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libjni_livedisplay \
     pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml
 
 # GPS
