@@ -51,9 +51,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl
 
-# Dalvik
-#$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
-
 # Display
 PRODUCT_PACKAGES += \
     pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml
